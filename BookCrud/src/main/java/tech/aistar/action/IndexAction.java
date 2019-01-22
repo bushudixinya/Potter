@@ -18,6 +18,6 @@ public class IndexAction extends HttpServlet{
 
         //放入到作用域中...
 
-        req.getRequestDispatcher("/jsp/index.jsp").forward(req,resp);
+        req.getRequestDispatcher("/jsp/bran01.jsp").forward(req,resp);
     }
 }

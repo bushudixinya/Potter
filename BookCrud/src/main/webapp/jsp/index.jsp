@@ -60,7 +60,7 @@
             border: 1px solid black;
             margin-top: 45px;
             box-shadow: #666 0px 1px 10px;
-            z-index: 1;
+
         }
 
         .banner img {

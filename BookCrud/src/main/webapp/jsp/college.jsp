@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 
@@ -6,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>导航</title>
-    <link rel="stylesheet" type="text/css" href="../plugins/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.css" />
     <style>
         #daohang {
             width: 100%;
@@ -283,7 +284,7 @@
         <!-- 格兰芬多-->
         <a id="gelan"></a>
         <h1 align="center" class="gryf">Gryffindor-格兰芬多</h2>
-            <div class="imgbox gryf">
+            <div class="imgbox gryf">mvn
                 <img src="${path}/img/gryh.png" width="500" height="500" >
                 <p align="center" class="divv" >
                     <br />
@@ -430,8 +431,8 @@
 </div>
 
 <!--引入jquery-->
-<script type="text/javascript" src="../plugins/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="${path}/plugins/jquery/jquery.min.js"></script>
 <!--引入bootstrap.js-->
-<script type="text/javascript" src="../plugins/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="${path}/plugins/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
